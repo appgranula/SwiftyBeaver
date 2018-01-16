@@ -34,7 +34,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "50D8F24C1FE27143006F3068"
-               BuildableName = "SwiftyBeaverTests (macOS).xctest"
+               BuildableName = "SwiftyBeaverTests.xctest"
                BlueprintName = "SwiftyBeaverTests (macOS)"
                ReferencedContainer = "container:SwiftyBeaver.xcodeproj">
             </BuildableReference>

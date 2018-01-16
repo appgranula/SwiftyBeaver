@@ -583,7 +583,8 @@ fileprivate class DirectoryInspectorStub: DirectoryInspector {
 
     func filesInDirectory(at url: URL) throws -> [URL] {
         guard let fileURLs = urls else {
-            throw "some error"
+            throw NSError(domain: "RotatingFileDestinationTests", code: 1003, userInfo: [NSLocalizedDescriptionKey: "some error"])
+//            throw "some error"
         }
 
         return fileURLs
